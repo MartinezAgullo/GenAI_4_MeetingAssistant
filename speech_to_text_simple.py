@@ -1,3 +1,7 @@
+######
+# speech_to_text_simple.py :: Transcribes to text the audio of the given file.
+######
+
 import torch
 from transformers import pipeline
 

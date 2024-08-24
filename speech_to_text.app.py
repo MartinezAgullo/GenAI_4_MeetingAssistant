@@ -1,3 +1,8 @@
+#####
+# speech_to_text.app.py :: Transcribes to text the audio of the given file using openAI wishper.
+#                          Creates a web interface with gradio.
+#####
+
 import torch
 from transformers import pipeline
 import gradio as gr
