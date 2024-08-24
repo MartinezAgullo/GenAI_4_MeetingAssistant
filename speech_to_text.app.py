@@ -5,10 +5,13 @@ import gradio as gr
 # Function to transcribe audio using the OpenAI Whisper model
 def transcript_audio(audio_file):
     # Initialize the speech recognition pipeline
-    pipe = #-----> Fill here <----
-    
+    pipe = pipeline(
+        "automatic-speech-recognition",
+        model="openai/whisper-tiny.en",
+        chunk_length_s=30,
+    )
     # Transcribe the audio file and return the result
-    result = #-----> Fill here <----
+    result = pipe(audio_file, batch_size=8)["text"]
     return result
 
 # Set up Gradio interface
