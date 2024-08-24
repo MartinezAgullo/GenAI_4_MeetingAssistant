@@ -1,5 +1,9 @@
 ######
-# LLM_simple.py 
+# LLM_simple.py :: Generates text using Llama 2.
+#                    'MAX_NEW_TOKENS': Sets the limit on the number of 
+#                                      words the model can generate in one go.
+#                    'TEMPERATURE': Adjusts how creative or predictable the 
+#                                   generated text is.
 ######
 from ibm_watson_machine_learning.foundation_models import Model
 from ibm_watson_machine_learning.foundation_models.extensions.langchain import WatsonxLLM
