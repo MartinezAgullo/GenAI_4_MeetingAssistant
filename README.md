@@ -23,19 +23,24 @@ To install OpenAI Whisper:
 
 
 # Running code
-## Transcription simple version
 execute:
-> python3.9 speech_to_text_simple.py
+> python3.9 speech_to_text_simple.py # Transcription simple version
+
+
+<!-- 
 output:
+
 '''
 Hello, I want to speak fast because I want to test four speech-to-text applications. Today, whether it's sunny, with a slight breeze, making it perfect for outdoor activity, later I plan for a busy local part, maybe even a picnic. The test is designed to assess the accuracy and responsiveness of the speech-to-text feature. Thank you for participating in this test.
 '''
+-->
 
-## Transcription web app
->  python3.9 speech_to_text.app.py
+> python3.9 speech_to_text.app.py # Transcription web app
+ 
+> python3.9 LLM_simple.py  # Simple LLM
 
-## Simple LLM
-> python3.9 LLM_simple.py 
+<!-- 
+
 output:
 '''
 Reading is one of the most efficient ways to gain knowledge and expand your mind. However, not all reading is created equal. Here are some tips to help you read a book effectively:
@@ -48,3 +53,4 @@ Reading is one of the most efficient ways to gain knowledge and expand your mind
 
 By following these tips, you can read a book effectively and get the most out of your reading time. Remember, reading is a lifelong learning process, and the more you practice, the better you'll become at it.
 '''
+-->
