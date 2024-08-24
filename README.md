@@ -39,6 +39,7 @@ Hello, I want to speak fast because I want to test four speech-to-text applicati
  
 > python3.9 LLM_simple.py  # Simple LLM
 
+> python3.9 speech_analyser.py  # Application to to transcribe discussions and provides a concise summary of a meeting
 <!-- 
 
 output:
