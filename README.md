@@ -3,7 +3,7 @@
 Generative AI-powered business meeting assistant.
 AI app to transcribe and summarise discussions.
 
-- [Open AI whishper](https://openai.com/index/whisper/): For speach to text conversion
+- [Open AI Whisper](https://openai.com/index/whisper/): For speach to text conversion
 
 - [Llama2 LLM:](https://llama.meta.com/llama2/) Summarise and extract key points
 
